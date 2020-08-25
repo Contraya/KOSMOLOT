@@ -43,13 +43,22 @@ textarea {
     background-color:rgba(255, 255, 255, .5);
     border-color: #eee;
 }
+#tr{
+    text-indent: 142px;
+}
+#tl{
+    text-indent: 109px;
+}
+#textarea_extented {
+    height: 474px;
+}
 #left {
     float: left;
-    width: 50%;
+    width: 100%;
 }
 #right {
     float: right;
-    width: 50%;
+    width: 100%;
 }
 #left2 {
     width: 50%;
@@ -61,12 +70,24 @@ textarea {
     float: left;
     position: relative;
 }
-#tr{
-    text-indent: 142px;
-}
-#tl{
-    text-indent: 109px;
-}
-#textarea_extented {
-    height: 474px;
+
+@media only screen and (min-width: 768px) {
+    #left {
+        float: left;
+        width: 50%;
+    }
+    #right {
+        float: right;
+        width: 50%;
+    }
+    #left2 {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+    #right2 {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
 }
